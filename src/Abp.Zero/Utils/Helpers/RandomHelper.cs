@@ -6,7 +6,7 @@ namespace Abp.Utils.Helpers
     /// <summary>
     /// Internally used to generate random numbers and codes.
     /// </summary>
-    internal class RandomHelper
+    public class RandomHelper
     {
         private static readonly Random Rnd = new Random();
 
